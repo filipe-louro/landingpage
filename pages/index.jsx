@@ -1,6 +1,7 @@
 import Features from "../components/features";
 import Header from "../components/header";
 import Welcome from "../components/welcome";
+import Contact from "../components/contact";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Welcome />
       <Features />
+      <Contact />
     </div>
   );
 }
