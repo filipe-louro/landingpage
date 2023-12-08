@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import Button from "../button";
 import Logo from "/public/images/logo.svg";
-import Styles from "./header.module.scss"
+import Styles from "./header.module.scss";
 
 const Header = () => {
   return (
@@ -15,7 +16,7 @@ const Header = () => {
         <Link href="/">Cases</Link>
       </div>
       <div className={Styles.action}>
-        <button className={Styles.button}>Fale conosco</button>
+        <Button title="Fale Conosco"/>
       </div>
     </div>
   );
